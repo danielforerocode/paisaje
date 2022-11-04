@@ -1,22 +1,26 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
- 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    /*background: radial-gradient(circle, rgba(55,66,157,1) 8%, rgba(28,132,233,1) 100%);*/
-    /*animation-name: day-night;
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(162, 255, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(162, 255, 241, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  /*background: radial-gradient(circle, rgba(55,66,157,1) 8%, rgba(28,132,233,1) 100%);*/
+  /*animation-name: day-night;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     position: relative;*/
+}
 
- }
-
- /*@keyframes day-night  {
+/*@keyframes day-night  {
     0%{
         
     }
@@ -30,20 +34,20 @@
     
  }*/
 
- .sun{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: yellow;
-    top: 2%;
-    right: 100px;
-    /*animation-name:  suntransition;
+.sun {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: yellow;
+  top: 2%;
+  right: 100px;
+  /*animation-name:  suntransition;
     animation-duration: 2s;
-    animation-iteration-count: infinite;*/ 
- }
+    animation-iteration-count: infinite;*/
+}
 
- /*@keyframes suntransition {
+/*@keyframes suntransition {
     0%{
     left: 5%;
     top: 200vh;
@@ -53,74 +57,68 @@
     left: 5%;
    }
  }*/
- 
- .grama{
-   position: absolute;
-   bottom:0;
-   width: 100%;
-   height: 100px;
-   background-color: yellowgreen;
- }
 
- .tree1{
-   position: absolute;
-   width: 150px;
-   height: 200px;
-   bottom: 80px;
-   left: 90px;
-  
- }
+.grama {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: yellowgreen;
+}
 
- .tree1 .crown{
-   position: absolute;
-   width: 150px;
-   height: 100px;
-   background-color: yellowgreen;
-   border-radius: 50% 50% 50% 50% / 70% 70% 30% 50%;
-   
- }
+.tree1 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  bottom: 80px;
+  left: 90px;
+}
 
- .tree1 .trunk {
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   transform: translate(-50%);
-   width: 25px;
-   height: 120px;
-   background-color: saddlebrown;
+.tree1 .crown {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: yellowgreen;
+  border-radius: 50% 50% 50% 50% / 70% 70% 30% 50%;
+}
 
- }
+.tree1 .trunk {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  width: 25px;
+  height: 120px;
+  background-color: saddlebrown;
+}
 
- 
- .tree2{
-   position: absolute;
-   width: 120px;
-   height: 150px;
-   bottom: 80px;
-   left: 500px;
+.tree2 {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  bottom: 80px;
+  left: 500px;
+}
 
- }
+.tree2 .crown {
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  background-color: yellowgreen;
+  border-radius: 50% 50% 50% 50% / 70% 70% 30% 50%;
+}
 
- .tree2 .crown{
-   position: absolute;
-   width: 120px;
-   height: 100px;
-   background-color: yellowgreen;
-   border-radius: 50% 50% 50% 50% / 70% 70% 30% 50%;
-   
- }
+.tree2 .trunk {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  width: 25px;
+  height: 70px;
+  background-color: saddlebrown;
+}
 
- .tree2 .trunk {
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   transform: translate(-50%);
-   width: 25px;
-   height: 70px;
-   background-color: saddlebrown;  
- }
-
- .nube{
-   width: 150px;
-   height: 50px;
-   }
+.nube {
+  width: 150px;
+  height: 50px;
+}
